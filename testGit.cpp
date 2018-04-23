@@ -22,9 +22,11 @@ int main(int argc, char **argv, char z)
 	case '+':
 		if (z == '+')
 			res = arg1 + arg2;
+break;
 	case '-':
 		if (z == '-')
 			res = arg1 - arg2;
+break;
 	case '/':
 		if (z == '/')
 			if (arg2 == 0.0)
